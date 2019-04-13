@@ -179,6 +179,6 @@ def player_stats(player_name)
   end
 end
 
-def player_with_largest_shoes(game)
-  player_hashes(game).sort_by {|player_hash| player_hash[:shoe_size]}.last
+def big_shoe_rebounds(game)
+  game_hash(game).sort_by {|player_hash| player_hash[:shoe_size]}.last
 end
