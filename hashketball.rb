@@ -179,11 +179,7 @@ def player_stats(player_name)
   end
 end
 
-def player_rebounds(game, player)
-  player_stat(game, player, :rebounds)
-end
-
-puts player_rebounds(game, def big_shoe_rebounds
+def big_shoe_rebounds
   big_shoes_guy = 0
   rebounds = 0
     game_hash.each do | team, team_details_hash|
