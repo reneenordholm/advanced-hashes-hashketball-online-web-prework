@@ -180,7 +180,6 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds(biggest_shoe)
-  def shoe_size(player_size)
    game_hash.values.each do |team|
     team[:players].each do |player|
       return player[:shoe].to_i if player.has_value?(player_size)
